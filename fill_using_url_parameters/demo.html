@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/url_params.js"></script>
+
+    <title>Copy from URL Parameters by RDCH106</title>
+  </head>
+
+  <body onload="copyfromUrlParameters()">
+
+  <br>
+  <div id="form-corpus">
+    <form id="generator-form" class="form-horizontal">
+		<fieldset>
+
+		<!-- Form Name -->
+		<legend>Copy from URL Parameters Sample</legend>
+
+		<!-- Text input-->
+		<div class="form-group">
+			<label class="col-md-4 control-label" for="name">Name</label>  
+			<div class="col-md-4">
+				<input id="name" name="name" type="text" placeholder="name" class="form-control input-md" required>
+				<span class="help-block">Your Name</span>  
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label class="col-md-4 control-label" for="dongle">USB Dongle</label>  
+			<div class="col-md-4">
+				<input id="dongle" name="dongle" type="text" placeholder="H0000-L0000" class="form-control input-md" required>
+				<span class="help-block">Your dongle ID</span>  
+			</div>
+		</div>
+
+		<!-- Text input-->
+		<div class="form-group">
+			<label class="col-md-4 control-label" for="email">Email</label>  
+			<div class="col-md-4">
+				<input id="email" name="email" type="email" placeholder="you@email.com" class="form-control input-md" required>
+				<span class="help-block">Your contact email</span>  
+			</div>
+		</div>
+
+		<!-- Text input-->
+		<div class="form-group">
+			<label class="col-md-4 control-label" for="description">Description</label>  
+			<div class="col-md-4">
+				<textarea id="description" name="description" type="text" placeholder="Lorem ipsum dolor sit amet, ..." cols="5" class="form-control input-md" required></textarea>
+				<span class="help-block">Detailed description</span>  
+			</div>
+		</div>		
+
+		<!-- Button -->
+		<div class="form-group">
+			<label class="col-md-4 control-label" for="Send"></label>
+			<div class="col-md-4">
+				<button id="Send" name="Send" class="btn btn-primary">Send</button>
+			</div>
+		</div>
+		
+		</fieldset>
+	</form>
+  </div>
+  </body>
+</html>
