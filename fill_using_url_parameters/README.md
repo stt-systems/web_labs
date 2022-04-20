@@ -17,3 +17,13 @@ The IDs used for the above example are:
 - description
 
 👀 Take a look at RFC-17387 standard for the correct URL encoding: [https://github.com/RDCH106/Simple-RFC1738-Encoder](https://github.com/RDCH106/Simple-RFC1738-Encoder)
+
+## 🐞 Debug
+
+It is possible to obtain traces of the operations if the debug parameter is added to the URL:
+
+https://raw.githack.com/stt-systems/web_labs/main/fill_using_url_parameters/demo.html?debug=true&name=RDCH106&dongle=H0000-L0000
+
+Use **`debug=true`** to activate the debug. By default, the debugging mode is not activated.
+
+👀 The traces will be show in the console of the  development tools in your web browser
